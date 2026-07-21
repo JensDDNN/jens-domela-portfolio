@@ -1,0 +1,1 @@
+1export default function Home() {2  return (3    <main style={{ padding: "4rem" }}>4      <h1>JENS DOMELA NIEUWENHUIS</h1>5 6      <h2>Fine Art Photography</h2>7 8      <p>9        Exploring silence, presence and urban space.10      </p>11    </main>12  );13}
