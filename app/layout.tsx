@@ -21,10 +21,10 @@ export default function RootLayout({
           }}
         >
           /Home</a>
-          /workWork</a>
+          /work>
           /statement
           /about
-          /contact>
+          /contactContact</a>
         </nav>
 
         {children}
@@ -32,4 +32,3 @@ export default function RootLayout({
     </html>
   );
 }
-``
