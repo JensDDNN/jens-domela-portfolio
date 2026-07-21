@@ -13,20 +13,6 @@ export default function RootLayout({
           fontFamily: "Georgia, serif",
         }}
       >
-        <nav
-          style={{
-            display: "flex",
-            gap: "2rem",
-            marginBottom: "3rem",
-          }}
-        >
-          /Home</a>
-          /work>
-          /statement
-          /about
-          /contactContact</a>
-        </nav>
-
         {children}
       </body>
     </html>
