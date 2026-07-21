@@ -1,1 +1,14 @@
-1{2  "name": "jens-domela-portfolio",3  "private": true,4  "scripts": {5    "dev": "next dev",6    "build": "next build",7    "start": "next start"8  },9  "dependencies": {10    "next": "^15.5.0",11    "react": "^19.1.0",12    "react-dom": "^19.1.0"13  }14}15 
+{
+  "name": "jens-domela-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
