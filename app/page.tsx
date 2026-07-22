@@ -4,13 +4,13 @@ export default function Home() {
       style={{
         maxWidth: "1200px",
         margin: "0 auto",
-        padding: "80px 40px"
+        padding: "80px 40px",
       }}
     >
       <h1
         style={{
           fontSize: "5rem",
-          marginBottom: "1rem"
+          marginBottom: "1rem",
         }}
       >
         JENS DOMELA NIEUWENHUIS
@@ -22,7 +22,7 @@ export default function Home() {
         Exploring silence, presence and urban space.
       </p>
 
-      <hr />
+      <hr style={{ margin: "60px 0" }} />
 
       <h2>Featured Projects</h2>
 
