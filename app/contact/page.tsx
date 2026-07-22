@@ -5,7 +5,9 @@ export default function Contact() {
 
       <p>info@domela.eu</p>
 
-      <p>Fine Art Photography</p>
+      <p>
+        For exhibitions, collaborations and print inquiries.
+      </p>
     </main>
   );
 }
