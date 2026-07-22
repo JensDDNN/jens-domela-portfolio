@@ -24,9 +24,9 @@ export default function RootLayout({
         >
           /Home</Link>
           /workWork</Link>
-          /statementStatement</Link>
-          /aboutAbout</Link>
-          /contactContact</Link>
+          <Link hrefStatement</Link>
+          <LinktAbout</Link>
+          contact">Contact</Link>
         </nav>
 
         {children}
