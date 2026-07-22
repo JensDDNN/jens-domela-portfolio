@@ -13,6 +13,7 @@ export default function RootLayout({
           margin: "0 auto",
           padding: "2rem",
           fontFamily: "Georgia, serif",
+          background: "#f5f3ef",
         }}
       >
         <nav
@@ -24,9 +25,9 @@ export default function RootLayout({
         >
           /Home</Link>
           /workWork</Link>
-          <Link hrefStatement</Link>
-          <LinktAbout</Link>
-          contact">Contact</Link>
+          /statementStatement</Link>
+          /aboutAbout</Link>
+          /contactContact</Link>
         </nav>
 
         {children}
