@@ -14,6 +14,11 @@ export default function About() {
         structure and scale influence our experience of
         space.
       </p>
+
+      <p>
+        Working between observation and abstraction,
+        his images invite reflection and contemplation.
+      </p>
     </main>
   );
 }
