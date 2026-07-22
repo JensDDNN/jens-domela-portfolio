@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function RootLayout({
   children,
 }: {
@@ -16,20 +14,6 @@ export default function RootLayout({
           background: "#f5f3ef",
         }}
       >
-        <nav
-          style={{
-            display: "flex",
-            gap: "2rem",
-            marginBottom: "3rem",
-          }}
-        >
-          /Home</Link>
-          /workWork</Link>
-          /statementStatement</Link>
-          /aboutAbout</Link>
-          /contactContact</Link>
-        </nav>
-
         {children}
       </body>
     </html>
