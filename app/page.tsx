@@ -48,7 +48,25 @@ export default function Home() {
     gap: "2rem",
   }}
 >
-  <div>
+  <a href="/workWinter Silence</h3>
+    <p>Atmosphere, absence and stillness.</p>
+  </a>
+
+  ">
+    <h3>Urban Isolation</h3>
+    <p>Human presence within urban space.</p>
+  </a>
+
+  /work
+    <h3>City Fragments</h3>
+    <p>Form, geometry and architecture.</p>
+  </a>
+
+  /work
+    <h3>Shadow Studies</h3>
+    <p>Investigations into shadow and body.</p>
+  </a>
+</div>
     <h3>Winter Silence</h3>
     <p>
       Atmosphere, absence and stillness.
