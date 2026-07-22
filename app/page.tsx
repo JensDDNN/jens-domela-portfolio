@@ -41,12 +41,41 @@ export default function Home() {
 
       <h2>Featured Projects</h2>
 
-      <ul>
-        <li>Winter Silence</li>
-        <li>Urban Isolation</li>
-        <li>City Fragments</li>
-        <li>Shadow Studies</li>
-      </ul>
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+    gap: "2rem",
+  }}
+>
+  <div>
+    <h3>Winter Silence</h3>
+    <p>
+      Atmosphere, absence and stillness.
+    </p>
+  </div>
+
+  <div>
+    <h3>Urban Isolation</h3>
+    <p>
+      Human presence within urban space.
+    </p>
+  </div>
+
+  <div>
+    <h3>City Fragments</h3>
+    <p>
+      Form, geometry and architecture.
+    </p>
+  </div>
+
+  <div>
+    <h3>Shadow Studies</h3>
+    <p>
+      Investigations into shadow and body.
+    </p>
+  </div>
+</div>
     </main>
   );
 }
