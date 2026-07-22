@@ -1,38 +1,36 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <main
-      style={{
-        maxWidth: "1200px",
-        margin: "0 auto",
-        padding: "80px 40px",
-      }}
-    >
-      <h1
+    <html lang="en">
+      <body
         style={{
-          fontSize: "5rem",
-          marginBottom: "1rem",
+          maxWidth: "1400px",
+          margin: "0 auto",
+          padding: "2rem",
+          fontFamily: "Georgia, serif",
         }}
       >
-        JENS DOMELA NIEUWENHUIS
-      </h1>
+        <nav
+          style={{
+            display: "flex",
+            gap: "2rem",
+            marginBottom: "3rem",
+          }}
+        >
+          <Link</Link>
+          /workWork</Link>
+          /statementStatement</Link>
+          /aboutAbout</Link>
+          /contactContact</Link>
+        </nav>
 
-      <h2>Fine Art Photography</h2>
-
-      <p>
-        Exploring silence, presence and urban space.
-      </p>
-
-      <hr style={{ margin: "60px 0" }} />
-
-      <h2>Featured Projects</h2>
-
-      <ul>
-        <li>Winter Silence</li>
-        <li>Urban Isolation</li>
-        <li>City Fragments</li>
-        <li>Shadow Studies</li>
-      </ul>
-    </main>
+        {children}
+      </body>
+    </html>
   );
 }
-``
