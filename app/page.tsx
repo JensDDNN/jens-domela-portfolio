@@ -9,17 +9,17 @@ export default function Home() {
         padding: "40px",
       }}
     >
-      "
-        alt="Artificial Trees"
-        width={1200}
-        height={800}
-        style={{
-          width: "100%",
-          height: "auto",
-          marginBottom: "3rem",
-        }}
-      />
-
+<Image
+  src="/DSC_17401.jpg"
+  alt="Artificial Trees"
+  width={1200}
+  height={800}
+  style={{
+    width: "100%",
+    height: "auto",
+    marginBottom: "3rem",
+  }}
+/>
       <h1
         style={{
           fontSize: "5rem",
