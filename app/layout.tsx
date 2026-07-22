@@ -22,7 +22,7 @@ export default function RootLayout({
             marginBottom: "3rem",
           }}
         >
-          <Link</Link>
+          /Home</Link>
           /workWork</Link>
           /statementStatement</Link>
           /aboutAbout</Link>
