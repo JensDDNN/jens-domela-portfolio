@@ -4,6 +4,8 @@ export default function Contact() {
       <h1>Contact</h1>
 
       <p>info@domela.eu</p>
+
+      <p>Fine Art Photography</p>
     </main>
   );
 }
