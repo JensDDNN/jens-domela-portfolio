@@ -9,7 +9,8 @@ export default function Home() {
         padding: "40px",
       }}
     >
-      .jpg"
+      <Image
+        src="/DSC_17401.jpg"
         alt="Artificial Trees"
         width={1200}
         height={800}
@@ -23,21 +24,7 @@ export default function Home() {
       <h1
         style={{
           fontSize: "5rem",
-          lineHeight: 1,
-        }}
-      >
-        JENS DOMELA
-        <br />
-        NIEUWENHUIS
-      </h1>
-
-      <h2>Fine Art Photography</h2>
-
-      <p>
-        Exploring silence, presence and urban space.
-      </p>
-
-      <hr style={{ margin: "4rem 0" }} />
+          lineHeight: 1le={{ margin: "4rem 0" }} />
 
       <h2>Featured Projects</h2>
 
