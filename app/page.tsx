@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+1import Link from "next/link";
 export default function Home() {
   return (
     <main
@@ -49,25 +49,40 @@ export default function Home() {
           gap: "2rem",
         }}
       >
-        <div>
-          <h3>Winter Silence</h3>
-          <p>Atmosphere, absence and stillness.</p>
-        </div>
+<Link
+  href="/work/winter-silence"
+  style={{
+    textDecoration: "none",
+    color: "inherit",
+  }}
+>
+  <div>
+    <h3>Winter Silence</h3>
+    <p>Atmosphere
 
-        <div>
-          <h3>Urban Isolation</h3>
-          <p>Human presence within urban space.</p>
-        </div>
+<Link
+  href="/work/urban-isolation"
+  rban Isolation</h3>
+    <p>Human presence within urban space.</p>
+  </div>
+</Link>
 
-        <div>
-          <h3>City Fragments</h3>
-          <p>Form, geometry and architecture.</p>
-        </div>
 
-        <div>
-          <h3>Shadow Studies</h3>
-          <p>Investigations into shadow and body.</p>
-        </div>
+<Link
+  href="/work/city-fragments"
+  style={{
+    textDecoration: "none",
+    color: "inherit",
+  }}
+>
+  <div>
+    <h3>City Fragments</h3>
+    <p>Form, geometry
+<Link
+  href="/work/shadow-studies"3>Shadow Studies</h3>
+    <p>Investigations into shadow and body.</p>
+  </div>
+</Link>
       </div>
     </main>
   );
