@@ -10,7 +10,8 @@ export default function Home() {
         padding: "40px",
       }}
     >
-      .jpg"
+      <Image
+        src="/DSC_17401.jpg"
         alt="Artificial Trees"
         width={1200}
         height={800}
@@ -19,21 +20,6 @@ export default function Home() {
           height: "auto",
           marginBottom: "3rem",
         }}
-      />
-
-      <h1
-        style={{
-          fontSize: "5rem",
-          lineHeight: 1,
-        }}
-      >
-        JENS DOMELA
-        <br />
-        NIEUWENHUIS
-      </h1>
-
-      <h2>Fine Art Photography</h2>
-
       <p>
         Exploring silence, presence and urban space.
       </p>
@@ -45,12 +31,12 @@ export default function Home() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+          gridTemplateColumns:
+            "repeat(auto-fit, minmax(250px, 1fr))",
           gap: "2rem",
         }}
       >
-        <Link
-          href="/work/winter-silence"
+        ence"
           style={{
             textDecoration: "none",
             color: "inherit",
@@ -58,25 +44,29 @@ export default function Home() {
             padding: "1rem",
           }}
         >
-          <div>
-            <h3>Winter Silence</h3>
-            <p>Atmosphere, absence and stillness.</p>
-          </div</h3>
-            <p>Human presence within urban space.</p>
-          </div>
+          <h3>Winter Silence</h3>
+          <p>Atmosphere, absence and stillness.</p>
         </Link>
 
         <Link
-          href="/work/city-fragments"
+          href="/work/urban-isolation"
           style={{
+            textDecoration: "none",
+            color: "inherit",
+            border  href="/work/city-fragments"
+          style={{
+            textDecoration: "none",
+            color: "inherit    <Link
+          href="/work/shadowe={{
             textDecoration: "none",
             color: "inherit",
             border: "1px solid #ddd",
-            padding: "1remk/shadow-studies"
-          style={{
-            textDecoration: "none",
-            color: "inherit",
-            border: "1   </Link>
+            padding: "1rem",
+          }}
+        >
+          <h3>Shadow Studies</h3>
+          <p>Investigations into shadow and body.</p>
+        </Link>
       </div>
     </main>
   );
