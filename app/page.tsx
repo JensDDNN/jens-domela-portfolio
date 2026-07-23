@@ -9,7 +9,7 @@ export default function Home() {
         padding: "40px",
       }}
     >
-      01.jpg"
+      .jpg"
         alt="Artificial Trees"
         width={1200}
         height={800}
@@ -44,8 +44,7 @@ export default function Home() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns:
-            "repeat(auto-fit, minmax(250px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
           gap: "2rem",
         }}
       >
@@ -69,22 +68,6 @@ export default function Home() {
           <p>Investigations into shadow and body.</p>
         </div>
       </div>
-    </main>
-  );
-}  <div>
-    <h3>City Fragments</h3>
-    <p>
-      Form, geometry and architecture.
-    </p>
-  </div>
-
-  <div>
-    <h3>Shadow Studies</h3>
-    <p>
-      Investigations into shadow and body.
-    </p>
-  </div>
-</div>
     </main>
   );
 }
