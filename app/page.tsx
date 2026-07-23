@@ -1,5 +1,6 @@
 import Image from "next/image";
-1import Link from "next/link";
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main
@@ -9,17 +10,16 @@ export default function Home() {
         padding: "40px",
       }}
     >
-<Image
-  src="/DSC_17401.jpg"
-  alt="Artificial Trees"
-  width={1200}
-  height={800}
-  style={{
-    width: "100%",
-    height: "auto",
-    marginBottom: "3rem",
-  }}
-/>
+      .jpg"
+        alt="Artificial Trees"
+        width={1200}
+        height={800}
+        style={{
+          width: "100%",
+          height: "auto",
+          marginBottom: "3rem",
+        }}
+      />
 
       <h1
         style={{
@@ -49,40 +49,34 @@ export default function Home() {
           gap: "2rem",
         }}
       >
-<Link
-  href="/work/winter-silence"
-  style={{
-    textDecoration: "none",
-    color: "inherit",
-  }}
->
-  <div>
-    <h3>Winter Silence</h3>
-    <p>Atmosphere
+        <Link
+          href="/work/winter-silence"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            border: "1px solid #ddd",
+            padding: "1rem",
+          }}
+        >
+          <div>
+            <h3>Winter Silence</h3>
+            <p>Atmosphere, absence and stillness.</p>
+          </div</h3>
+            <p>Human presence within urban space.</p>
+          </div>
+        </Link>
 
-<Link
-  href="/work/urban-isolation"
-  rban Isolation</h3>
-    <p>Human presence within urban space.</p>
-  </div>
-</Link>
-
-
-<Link
-  href="/work/city-fragments"
-  style={{
-    textDecoration: "none",
-    color: "inherit",
-  }}
->
-  <div>
-    <h3>City Fragments</h3>
-    <p>Form, geometry
-<Link
-  href="/work/shadow-studies"3>Shadow Studies</h3>
-    <p>Investigations into shadow and body.</p>
-  </div>
-</Link>
+        <Link
+          href="/work/city-fragments"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            border: "1px solid #ddd",
+            padding: "1remk/shadow-studies"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            border: "1   </Link>
       </div>
     </main>
   );
