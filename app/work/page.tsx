@@ -14,7 +14,7 @@ export default function Work() {
         absence and stillness.
       </p>
 
-      /work/urban-isolation
+      olation">
         <h2>Urban Isolation</h2>
       </Link>
 
@@ -23,7 +23,7 @@ export default function Work() {
         environments.
       </p>
 
-      /work/city-fragments
+      ">
         <h2>City Fragments</h2>
       </Link>
 
