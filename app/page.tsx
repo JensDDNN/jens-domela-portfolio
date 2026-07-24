@@ -5,7 +5,7 @@ export default function Work() {
     <main style={{ padding: "4rem" }}>
       <h1>Work</h1>
 
-      <work/winter-silence
+      <Link hrefer-silence
         <h2>Winter Silence</h2>
       </Link>
 
@@ -14,7 +14,7 @@ export default function Work() {
         absence and stillness.
       </p>
 
-      olation">
+      /work/urban-isolation
         <h2>Urban Isolation</h2>
       </Link>
 
@@ -23,7 +23,7 @@ export default function Work() {
         environments.
       </p>
 
-      ity-fragments">
+      /work/city-fragments
         <h2>City Fragments</h2>
       </Link>
 
@@ -32,7 +32,7 @@ export default function Work() {
         geometry and light.
       </p>
 
-      /shadows">
+      /work/shadows
         <h2>Shadow Studies</h2>
       </Link>
 
