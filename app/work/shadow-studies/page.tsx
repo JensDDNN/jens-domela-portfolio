@@ -4,8 +4,7 @@ export default function ShadowStudies() {
       <h1>Shadow Studies</h1>
 
       <p>
-        Investigations into shadow,
-        body and space.
+        Investigations into shadow, body and space.
       </p>
 
       <ul>
