@@ -1,7 +1,7 @@
 export default function ShadowStudies() {
   return (
     <main style={{ padding: "4rem" }}>
-      <h1>Shadow Studies</h1>
+      <h1>Shadow Studies Test</h1>
 
       <p>
         Investigations into shadow, body and space.
