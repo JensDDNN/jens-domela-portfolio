@@ -1,34 +1,45 @@
-import Image from "next/image";
+import Link from "next/link";
 
-export default function Home() {
+export default function Work() {
   return (
-    <main
-      style={{
-        maxWidth: "1200px",
-        margin: "0 auto",
-        padding: "40px",
-      }}
-    >
-/DSC_17401.jpg
-      
-      <h1>JENS DOMELA NIEUWENHUIS</h1>
+    <main style={{ padding: "4rem" }}>
+      <h1>Work</h1>
 
-      <h2>Fine Art Photography</h2>
+      <work/winter-silence
+        <h2>Winter Silence</h2>
+      </Link>
 
       <p>
-        Exploring silence, presence and urban space.
+        A photographic exploration of atmosphere,
+        absence and stillness.
       </p>
 
-      <hr style={{ margin: "4rem 0" }} />
+      olation">
+        <h2>Urban Isolation</h2>
+      </Link>
 
-      <h2>Featured Projects</h2>
+      <p>
+        Human presence within contemporary urban
+        environments.
+      </p>
 
-      <ul>
-        <li>Winter Silence</li>
-        <li>Urban Isolation</li>
-        <li>City Fragments</li>
-        <li>Shadow Studies</li>
-      </ul>
+      ity-fragments">
+        <h2>City Fragments</h2>
+      </Link>
+
+      <p>
+        Architecture reduced to form,
+        geometry and light.
+      </p>
+
+      /shadows">
+        <h2>Shadow Studies</h2>
+      </Link>
+
+      <p>
+        Investigations into shadow,
+        body and space.
+      </p>
     </main>
   );
 }
