@@ -8,7 +8,7 @@ export default function WinterSilence() {
         absence and stillness.
       </p>
 
-      images/DSC_1344.jpg"
+      DSC_1344.jpg"
         alt="Winter Canal"
         style={{
           width: "100%",
