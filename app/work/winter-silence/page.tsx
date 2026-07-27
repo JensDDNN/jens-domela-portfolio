@@ -8,11 +8,14 @@ export default function WinterSilence() {
         absence and stillness.
       </p>
 
-      <img
-        src="/images/DSC_1344.jpg"
+      images/DSC_1344.jpg"
         alt="Winter Canal"
         style={{
           width: "100%",
           maxWidth: "1200px",
           marginTop: "2rem",
         }}
+      />
+    </main>
+  );
+}
