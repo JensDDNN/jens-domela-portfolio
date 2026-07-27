@@ -1,31 +1,32 @@
-export default function Work() {
+import Image from "next/image";
+
+export default function Home() {
   return (
-    <main style={{ padding: "4rem" }}>
-      <h1>Work</h1>
+    <main
+      style={{
+        maxWidth: "1200px",
+        margin: "0 auto",
+        padding: "40px",
+      }}
+    >
+      <Image
+        src="/DSC_17401.jpg"
+        alt="Artificial Trees"
+        width={1200}
+        height={800}
+        style={{
+          width: "100%",
+          height: "auto",
+          margin: "4rem 0" }} />
 
-      <h2>Winter Silence</h2>
-      <p>
-        A photographic exploration of atmosphere,
-        absence and stillness.
-      </p>
+      <h2>Featured Projects</h2>
 
-      <h2>Urban Isolation</h2>
-      <p>
-        Human presence within contemporary urban
-        environments.
-      </p>
-
-      <h2>City Fragments</h2>
-      <p>
-        Architecture reduced to form,
-        geometry and light.
-      </p>
-
-      <h2>Shadow Studies</h2>
-      <p>
-        Investigations into shadow,
-        body and space.
-      </p>
+      <ul>
+        <li>Winter Silence</li>
+        <li>Urban Isolation</li>
+        <li>City Fragments</li>
+        <li>Shadow Studies</li>
+      </ul>
     </main>
   );
 }
