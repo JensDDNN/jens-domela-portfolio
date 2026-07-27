@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function WinterSilence() {
   return (
     <main style={{ padding: "4rem" }}>
@@ -10,15 +8,16 @@ export default function WinterSilence() {
         absence and stillness.
       </p>
 
-      <Image
+      <img
         src="/images/DSC_1344.jpg"
         alt="Winter Silence"
-        width={1200}
-        height={800}
         style={{
           width: "100%",
+          maxWidth: "1200px",
           height: "auto",
           marginTop: "2rem",
         }}
       />
-    </
+    </main>
+  );
+}
