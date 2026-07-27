@@ -11,7 +11,7 @@ export default function WinterSilence() {
       </p>
 
       <Image
-        src="/images/winter-silence/DSC_1344.jpg"
+        src="/images/DSC_1344.jpg"
         alt="Winter Silence"
         width={1200}
         height={800}
@@ -21,6 +21,4 @@ export default function WinterSilence() {
           marginTop: "2rem",
         }}
       />
-    </main>
-  );
-}
+    </
