@@ -20,7 +20,27 @@ export default function CityFragments() {
 
       <img
         src="/images/city-fragments/DSC_1736.jpg"
-        alt="City Fragments"
+        alt="City Fragment"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/city-fragments/DSC_0761.jpg"
+        alt="City Fragment"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/city-fragments/DSC_0829.jpg"
+        alt="City Fragment"
         style={{
           width: "100%",
           maxWidth: "1200px",
