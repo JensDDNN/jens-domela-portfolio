@@ -27,6 +27,16 @@ export default function WinterSilence() {
           marginTop: "2rem",
         }}
       />
+
+      <img
+        src="/images/DSC_1314.jpg"
+        alt="Crow on Concrete"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
