@@ -7,6 +7,16 @@ export default function WinterSilence() {
         A photographic exploration of atmosphere,
         absence and stillness.
       </p>
+
+      <img
+        src="/images/DSC_1344.jpg"
+        alt="Winter Canal"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
