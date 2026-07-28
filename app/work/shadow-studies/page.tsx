@@ -1,19 +1,61 @@
 export default function ShadowStudies() {
   return (
     <main style={{ padding: "4rem" }}>
-      <h1>Shadow Studies Test</h1>
+      <h1>Shadow Studies</h1>
 
       <p>
         Investigations into shadow, body and space.
       </p>
 
-      <ul>
-        <li>Shadow Dance I</li>
-        <li>Shadow Dance II</li>
-        <li>Constructed Presence</li>
-        <li>Behind the Grid</li>
-        <li>Red Wall</li>
-      </ul>
+      <img
+        src="/images/shadow-studies/DSC_0947-2.jpg"
+        alt="Shadow Studies"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/shadow-studies/NIK_2249.jpg"
+        alt="Shadow Studies"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/shadow-studies/NIK_2313.jpg"
+        alt="Shadow Studies"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/shadow-studies/NIK_2428.jpg"
+        alt="Shadow Studies"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/shadow-studies/NIK_2438-2.jpg"
+        alt="Shadow Studies"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
