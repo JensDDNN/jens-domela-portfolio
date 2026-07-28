@@ -8,13 +8,15 @@ export default function CityFragments() {
         geometry and light.
       </p>
 
-      <ul>
-        <li>Artificial Trees</li>
-        <li>Waveform</li>
-        <li>COVE</li>
-        <li>Digital Canyon</li>
-        <li>Distorted Reflection</li>
-      </ul>
+      <img
+        src="/images/city-fragments/DSC_17401.jpg"
+        alt="Artificial Trees"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
