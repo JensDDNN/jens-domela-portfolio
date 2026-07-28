@@ -37,6 +37,16 @@ export default function WinterSilence() {
           marginTop: "2rem",
         }}
       />
+
+      <img
+        src="/images/DSC_1307.jpg"
+        alt="Amsterdam Winter"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
