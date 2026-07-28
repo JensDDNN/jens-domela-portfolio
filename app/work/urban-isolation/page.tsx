@@ -27,6 +27,16 @@ export default function UrbanIsolation() {
           marginTop: "2rem",
         }}
       />
+
+      <img
+        src="/images/urban-isolation/DSC_0785.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
