@@ -8,13 +8,15 @@ export default function UrbanIsolation() {
         environments.
       </p>
 
-      <ul>
-        <li>The Passing Figure</li>
-        <li>Market Hall</li>
-        <li>The High Line</li>
-        <li>FEBO</li>
-        <li>Electric Ride</li>
-      </ul>
+      <img
+        src="/images/urban-isolation/DSC_0423.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
