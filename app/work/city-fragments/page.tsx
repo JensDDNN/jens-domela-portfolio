@@ -17,6 +17,16 @@ export default function CityFragments() {
           marginTop: "2rem",
         }}
       />
+
+      <img
+        src="/images/city-fragments/DSC_1736.jpg"
+        alt="City Fragments"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
