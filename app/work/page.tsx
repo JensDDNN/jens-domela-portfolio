@@ -21,61 +21,46 @@ export default function Work() {
       <div
         style={{
           display: "grid",
-          gap: "4rem",
+          gap: "5rem",
         }}
       >
         <Link
           href="/work/winter-silence"
           style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
-          <img
-            src="/images/DSC_1344.jpg"
+C_1344.jpg"
             alt="Winter Silence"
             style={{
               width: "100%",
+              maxWidth: "700px",
+              height: "auto",
               display: "block",
-            }}
-          />
-
-          <h2 style={{ marginTop: "1rem" }}>
-            Winter Silence
-          </h2>
-
-          <p>
-            A photographic exploration of atmosphere,
-            absence and stillness.
-          </p>
+              marginBottom: "1rem",
+                  textDecoration: "none",
+            colorolation"
+            style={{
+              width: "100%",
+              maxWidth: "700px",
+              height: "auto",
+              display"/work/city-fragments"
+          style={{
+            textDecoration: "none",     alt="City Fragments"
+            style={{
+              width: "100%",
+              maxWidth: "   </p>
         </Link>
 
         <Link
-          href="/work/urban-isolation"
+          href="/work/shadow-studies"
           style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
-          <img
-            src="/images/urban-isolation/DSC_0423.jpg"
-            alt="Urban Isolation"
+       udies/DSC_0947-2.jpg"
+            alt="Shadow Studies"
             style={{
               width: "100%",
-              display: "block",
-            }}
-          />
-
-          <h2 style={{ marginTop: "1rem" }}>
-            Urban Isolation
-          </h2>
-
-          <p>
-            Human presence within contemporary urban
-            environments.
-          </p>
-        </Link>
-
+              maxWidth: "700px",   </Link>
+      </div>
+    </main>
+  );
+}
         <Link
           href="/work/city-fragments"
           style={{
