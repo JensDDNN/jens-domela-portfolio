@@ -20,61 +20,42 @@ export default function Work() {
       >
         <Link
           href="/work/winter-silence"
-          style={{ textDecoration: "none", color: "inherit" }}
-        >
-          <img
-            src="/images/DSC_1344.jpg"
-            alt="Winter Silence"
-            style={{
-              width: "100%",
-              maxWidth: "1200px",
-            }}
-          />
-          <h2>Winter Silence</h2>
-          <p>
-            A photographic exploration of atmosphere,
-            absence and stillness.
-          </p>
-        </Link>
-
-        <Link
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            border: "1px solid #           height: "auto",
+              display: "block",
+           <Link
           href="/work/urban-isolation"
-          style={{ textDecoration: "none", color: "inherit" }}
-        >
-          <img
-            src="/images/urban-isolation/DSC_0423.jpg"
-            alt="Urban Isolation"
-            style={{
-              width: "100%",
-              maxWidth: "1200px",
-            }}
-          />
-          <h2>Urban Isolation</h2>
-          <p>
-            Human presence within contemporary urban
-            environments.
-          </p>
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            border             width: "100%",
+              height: "auto"     </p>
         </Link>
 
         <Link
           href="/work/city-fragments"
-          style={{ textDecoration: "none", color: "inherit" }}
-        >
-          <img
-            src="/images/city-fragments/DSC_17401.jpg"
-            alt="City Fragments"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+         yle={{
+              width: "100%",
+              height: "auto",
+              display: "block",
+            href="/work/shadow-studies"
+          style={{
+            textDecoration: "none",
+            colorStudies"
             style={{
               width: "100%",
-              maxWidth: "1200px",
-            }}
-          />
-          <h2>City Fragments</h2>
-          <p>
-            Architecture reduced to form,
-            geometry and light.
+      pace.
           </p>
         </Link>
-
+      </div>
+    </main>
+  );
+}
         <Link
           href="/work/shadow-studies"
           style={{ textDecoration: "none", color: "inherit" }}
