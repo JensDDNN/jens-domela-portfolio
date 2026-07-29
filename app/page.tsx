@@ -18,21 +18,7 @@ export default function Home() {
         style={{
           width: "100%",
           height: "auto",
-          marginBottom: "3rem",
-        }}
-      />
-
-      <h1
-        style={{
-          fontSize: "4rem",
-          marginBottom: "0.5rem",
-        }}
-      >
-        JENS DOMELA NIEUWENHUIS
-      </h1>
-
-      <p
-        style={{
+          margin{
           fontSize: "1.25rem",
           marginBottom: "4rem",
         }}
@@ -49,59 +35,32 @@ export default function Home() {
       >
         <Link
           href="/work/winter-silence"
-          style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
-          <img
-            src="/images/DSC_1344.jpg"
+          images/DSC_1344.jpg"
             alt="Winter Silence"
             style={{
               width: "100%",
-              display: "block",
-            }}
-          />
-
-          <h2>Winter Silence</h2>
-        </Link>
-
-        <Link
-          href="/work/urban-isolation"
+              height    href="/work/urban-isolation"
           style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
-          <img
-            src="/images/urban-isolation/DSC_0423.jpg"
+       lation/DSC_0423.jpg"
             alt="Urban Isolation"
             style={{
               width: "100%",
-              display: "block",
-            }}
-          />
-
-          <h2>Urban Isolation</h2>
-        </Link>
-
-        <Link
-          href="/work/city-fragments"
-          style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
+              height    href
           <img
             src="/images/city-fragments/DSC_17401.jpg"
             alt="City Fragments"
             style={{
               width: "100%",
-              display: "block",
-            }}
-          />
-
-          <h2>City Fragments</h2>
+        <Link
+          href="/        <img
+            src="/images/shadow-studies/DSC_0947-2.jpg"
+            alt="Shadow Studies"
+            style={{
+              width: "100k>
+      </div>
+    </main>
+  );
+}          <h2>City Fragments</h2>
         </Link>
 
         <Link
