@@ -25,11 +25,11 @@ export default function RootLayout({
             paddingBottom: "1rem",
           }}
         >
-          /Home</Link>
-          /workWork</Link>
-          /statementStatement</Link>
-          /aboutAbout</Link>
-          /contactContact</Link>
+          <Link href="/">Home</Link>
+          <Link href="/work">Work</Link>
+          <Link href="/statement">Statement</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
         </nav>
 
         {children}
