@@ -9,9 +9,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         style={{
-          maxWidth: "1400px",
+          maxWidth: "1200px",
           margin: "0 auto",
-          padding: "2rem",
+          padding: "2rem 40px",
           fontFamily: "Georgia, serif",
           background: "#f5f3ef",
         }}
@@ -25,11 +25,11 @@ export default function RootLayout({
             paddingBottom: "1rem",
           }}
         >
-          <Link href="/">Home</Link>
-          <Link href="/work">Work</Link>
-          <Link href="/statement">Statement</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          /Home</Link>
+          /workWork</Link>
+          <Link href="/statementink>
+          <LinktAbout</Link>
+          /contactContact</Link>
         </nav>
 
         {children}
