@@ -18,8 +18,8 @@ export default function Home() {
         style={{
           width: "100%",
           height: "auto",
-          margin{
-          fontSize: "1.25rem",
+          marginBottom: "3rem",
+       1.25rem",
           marginBottom: "4rem",
         }}
       >
@@ -29,56 +29,22 @@ export default function Home() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
           gap: "2rem",
         }}
       >
-        <Link
-          href="/work/winter-silence"
-          images/DSC_1344.jpg"
-            alt="Winter Silence"
-            style={{
-              width: "100%",
-              height    href="/work/urban-isolation"
-          style={{
-       lation/DSC_0423.jpg"
-            alt="Urban Isolation"
-            style={{
-              width: "100%",
-              height    href
-          <img
-            src="/images/city-fragments/DSC_17401.jpg"
-            alt="City Fragments"
-            style={{
-              width: "100%",
-        <Link
-          href="/        <img
-            src="/images/shadow-studies/DSC_0947-2.jpg"
-            alt="Shadow Studies"
-            style={{
-              width: "100k>
-      </div>
-    </main>
-  );
-}          <h2>City Fragments</h2>
+        <work/winter-silence
+          <h2>Winter Silence</h2>
         </Link>
 
-        <Link
-          href="/work/shadow-studies"
-          style={{
-            textDecoration: "none",
-            color: "inherit",
-          }}
-        >
-          <img
-            src="/images/shadow-studies/DSC_0947-2.jpg"
-            alt="Shadow Studies"
-            style={{
-              width: "100%",
-              display: "block",
-            }}
-          />
+        /work/urban-isolation
+          <h2>Urban Isolation</h2>
+        </Link>
 
+        /work/city-fragments
+          <h2>City Fragments</h2>
+        </Link>
+
+        <Link/shadow-studies
           <h2>Shadow Studies</h2>
         </Link>
       </div>
