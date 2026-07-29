@@ -34,7 +34,7 @@ export default function Home() {
       <p
         style={{
           fontSize: "1.25rem",
-          marginBottom: "4rem",
+          marginBottom: "3rem",
         }}
       >
         Fine Art Photography
