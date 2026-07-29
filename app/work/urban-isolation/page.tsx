@@ -1,77 +1,52 @@
-"use client";
-
-import { useState } from "react";
-
-export default function WinterSilence() {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
-
-  const images = [
-    "/images/DSC_1344.jpg",
-    "/images/DSC_1341.jpg",
-    "/images/DSC_1314.jpg",
-    "/images/DSC_1307.jpg",
-  ];
-
+export default function UrbanIsolation() {
   return (
     <main style={{ padding: "4rem" }}>
-      <h1>Winter Silence</h1>
+      <h1>Urban Isolation</h1>
 
       <p>
-        A photographic exploration of atmosphere,
-        absence and stillness.
+        Human presence within contemporary urban
+        environments.
       </p>
 
-      {images.map((src) => (
-        {src} => setSelectedImage(src)}
-          style={{
-            width: "100%",
-            maxWidth: "1200px",
-            marginTop: "2rem",
-            cursor: "pointer",
-            display: "block",
-          }}
-        />
-      ))}
+      <img
+        src="/images/urban-isolation/DSC_0423.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
 
-      {selectedImage && (
-        <div
-          onClick={() => setSelectedImage(null)}
-          style={{
-            position: "fixed",
-            inset: 0,
-            background: "rgba(0,0,0,0.95)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            zIndex: 9999,
-            cursor: "pointer",
-          }}
-        >
-          {selectedImage} => e.stopPropagation()}
-            style={{
-              maxWidth: "95vw",
-              maxHeight: "95vh",
-              objectFit: "contain",
-            }}
-          />
+      <img
+        src="/images/urban-isolation/DSC_0685.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
 
-          <button
-            onClick={() => setSelectedImage(null)}
-            style={{
-              position: "absolute",
-              top: "20px",
-              right: "30px",
-              background: "transparent",
-              border: "none",
-              color: "white",
-              fontSize: "2rem",
-              cursor: "pointer",
-            }}
-          >
-            ×
-          </button>
-        </div>
-      )}
+      <img
+        src="/images/urban-isolation/DSC_0785.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
+
+      <img
+        src="/images/urban-isolation/NIK_2218.jpg"
+        alt="Urban Isolation"
+        style={{
+          width: "100%",
+          maxWidth: "1200px",
+          marginTop: "2rem",
+        }}
+      />
     </main>
   );
 }
