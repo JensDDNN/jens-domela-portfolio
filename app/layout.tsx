@@ -19,7 +19,7 @@ export default function RootLayout({
         <nav
           style={{
             display: "flex",
-            gap: "2rem",
+            gap: "3rem",
             marginBottom: "3rem",
             borderBottom: "1px solid #ddd",
             paddingBottom: "1rem",
