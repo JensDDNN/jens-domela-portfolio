@@ -11,7 +11,7 @@ export default function RootLayout({
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
-          padding: "2rem 40px",
+          padding: "2rem 0",
           fontFamily: "Georgia, serif",
           background: "#f5f3ef",
         }}
