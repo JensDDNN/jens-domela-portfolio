@@ -24,7 +24,7 @@ export default function Home() {
 
       <h1
         style={{
-          fontSize: "4rem",
+          fontSize: "3rem",
           marginBottom: "0.5rem",
         }}
       >
