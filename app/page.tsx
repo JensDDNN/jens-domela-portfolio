@@ -19,7 +19,21 @@ export default function Home() {
           width: "100%",
           height: "auto",
           marginBottom: "3rem",
-       1.25rem",
+        }}
+      />
+
+      <h1
+        style={{
+          fontSize: "4rem",
+          marginBottom: "0.5rem",
+        }}
+      >
+        JENS DOMELA NIEUWENHUIS
+      </h1>
+
+      <p
+        style={{
+          fontSize: "1.25rem",
           marginBottom: "4rem",
         }}
       >
@@ -29,22 +43,87 @@ export default function Home() {
       <div
         style={{
           display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
           gap: "2rem",
         }}
       >
-        <work/winter-silence
+        <Link
+          href="/work/winter-silence"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <img
+            src="/images/DSC_1344.jpg"
+            alt="Winter Silence"
+            style={{
+              width: "100%",
+              height: "220px",
+              objectFit: "cover",
+              display: "block",
+            }}
+          />
           <h2>Winter Silence</h2>
         </Link>
 
-        /work/urban-isolation
+        <Link
+          href="/work/urban-isolation"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <img
+            src="/images/urban-isolation/DSC_0423.jpg"
+            alt="Urban Isolation"
+            style={{
+              width: "100%",
+              height: "220px",
+              objectFit: "cover",
+              display: "block",
+            }}
+          />
           <h2>Urban Isolation</h2>
         </Link>
 
-        /work/city-fragments
+        <Link
+          href="/work/city-fragments"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <img
+            src="/images/city-fragments/DSC_17401.jpg"
+            alt="City Fragments"
+            style={{
+              width: "100%",
+              height: "220px",
+              objectFit: "cover",
+              display: "block",
+            }}
+          />
           <h2>City Fragments</h2>
         </Link>
 
-        <Link/shadow-studies
+        <Link
+          href="/work/shadow-studies"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+          }}
+        >
+          <img
+            src="/images/shadow-studies/DSC_0947-2.jpg"
+            alt="Shadow Studies"
+            style={{
+              width: "100%",
+              height: "220px",
+              objectFit: "cover",
+              display: "block",
+            }}
+          />
           <h2>Shadow Studies</h2>
         </Link>
       </div>
