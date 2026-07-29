@@ -20,7 +20,7 @@ export default function RootLayout({
   style={{
     display: "flex",
     gap: "4rem",
-    marginBottom: "3rem",
+    marginBottom: "5rem",
     borderBottom: "1px solid #ddd",
     paddingBottom: "1rem",
     fontSize: "0.9rem",
