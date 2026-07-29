@@ -28,11 +28,25 @@ export default function RootLayout({
     textTransform: "uppercase",
   }}
 >
-          <Link href="/">Home</Link>
-          <Link href="/work">Work</Link>
-          <Link href="/statement">Statement</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+<Link href="/" style={{ color: "#333", textDecoration: "none" }}>
+  Home
+</Link>
+
+<Link href="/work" style={{ color: "#333", textDecoration: "none" }}>
+  Work
+</Link>
+
+<Link href="/statement" style={{ color: "#333", textDecoration: "none" }}>
+  Statement
+</Link>
+
+<Link href="/about" style={{ color: "#333", textDecoration: "none" }}>
+  About
+</Link>
+
+<Link href="/contact" style={{ color: "#333", textDecoration: "none" }}>
+  Contact
+</Link>
         </nav>
 
         {children}
