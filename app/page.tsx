@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,16 +18,62 @@ export default function Home() {
         style={{
           width: "100%",
           height: "auto",
-          margin: "4rem 0" }} />
+          marginBottom: "3rem",
+        }}
+      />
 
-      <h2>Featured Projects</h2>
+      <h1
+        style={{
+          fontSize: "4rem",
+          marginBottom: "0.5rem",
+        }}
+      >
+        JENS DOMELA NIEUWENHUIS
+      </h1>
 
-      <ul>
-        <li>Winter Silence</li>
-        <li>Urban Isolation</li>
-        <li>City Fragments</li>
-        <li>Shadow Studies</li>
-      </ul>
+      <p
+        style={{
+          fontSize: "1.25rem",
+          marginBottom: "4rem",
+        }}
+      >
+        Fine Art Photography
+      </p>
+
+      <div
+        style={{
+          display: "grid",
+          gap: "2rem",
+        }}
+      >
+        <Link
+          href="/work/winter-silence"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h2>Winter Silence</h2>
+        </Link>
+
+        <Link
+          href="/work/urban-isolation"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h2>Urban Isolation</h2>
+        </Link>
+
+        <Link
+          href="/work/city-fragments"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h2>City Fragments</h2>
+        </Link>
+
+        <Link
+          href="/work/shadow-studies"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <h2>Shadow Studies</h2>
+        </Link>
+      </div>
     </main>
   );
 }
