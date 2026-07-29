@@ -16,15 +16,18 @@ export default function RootLayout({
           background: "#f5f3ef",
         }}
       >
-        <nav
-          style={{
-            display: "flex",
-            gap: "3rem",
-            marginBottom: "3rem",
-            borderBottom: "1px solid #ddd",
-            paddingBottom: "1rem",
-          }}
-        >
+<nav
+  style={{
+    display: "flex",
+    gap: "4rem",
+    marginBottom: "3rem",
+    borderBottom: "1px solid #ddd",
+    paddingBottom: "1rem",
+    fontSize: "0.9rem",
+    letterSpacing: "0.15em",
+    textTransform: "uppercase",
+  }}
+>
           <Link href="/">Home</Link>
           <Link href="/work">Work</Link>
           <Link href="/statement">Statement</Link>
